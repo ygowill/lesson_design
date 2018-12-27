@@ -1,0 +1,17 @@
+..\output\guicirc.o: ..\code\uCGUI\Core\GUICirc.c
+..\output\guicirc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+..\output\guicirc.o: ..\code\uCGUI\Core\GUI_Private.h
+..\output\guicirc.o: ..\code\uCGUI\Core\GUI_Protected.h
+..\output\guicirc.o: ..\code\uCGUI\Core\GUI.h
+..\output\guicirc.o: ..\code\uCGUI\Core\GUI_ConfDefaults.h
+..\output\guicirc.o: ..\code\GUI\Config\GUIConf.h
+..\output\guicirc.o: ..\code\uCGUI\Core\GUIType.h
+..\output\guicirc.o: ..\code\uCGUI\Core\LCD.h
+..\output\guicirc.o: ..\code\uCGUI\Core\GUIVersion.h
+..\output\guicirc.o: ..\code\uCGUI\Core\LCD_Protected.h
+..\output\guicirc.o: ..\code\uCGUI\Core\GUIDebug.h
+..\output\guicirc.o: ..\code\uCGUI\Core\GUI_X.h
+..\output\guicirc.o: ..\code\GUI\GUI_inc\WM_GUI.h
+..\output\guicirc.o: ..\code\uCGUI\Core\LCD_Private.h
+..\output\guicirc.o: ..\code\uCGUI\Core\LCD_ConfDefaults.h
+..\output\guicirc.o: ..\code\GUI\Config\LCDConf.h

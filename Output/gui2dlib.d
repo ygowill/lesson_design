@@ -1,0 +1,13 @@
+..\output\gui2dlib.o: ..\code\uCGUI\Core\GUI2DLib.c
+..\output\gui2dlib.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+..\output\gui2dlib.o: ..\code\uCGUI\Core\GUI_Protected.h
+..\output\gui2dlib.o: ..\code\uCGUI\Core\GUI.h
+..\output\gui2dlib.o: ..\code\uCGUI\Core\GUI_ConfDefaults.h
+..\output\gui2dlib.o: ..\code\GUI\Config\GUIConf.h
+..\output\gui2dlib.o: ..\code\uCGUI\Core\GUIType.h
+..\output\gui2dlib.o: ..\code\uCGUI\Core\LCD.h
+..\output\gui2dlib.o: ..\code\uCGUI\Core\GUIVersion.h
+..\output\gui2dlib.o: ..\code\uCGUI\Core\LCD_Protected.h
+..\output\gui2dlib.o: ..\code\uCGUI\Core\GUIDebug.h
+..\output\gui2dlib.o: ..\code\uCGUI\Core\GUI_X.h
+..\output\gui2dlib.o: ..\code\GUI\GUI_inc\WM_GUI.h

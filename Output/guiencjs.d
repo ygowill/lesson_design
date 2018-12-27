@@ -1,0 +1,13 @@
+..\output\guiencjs.o: ..\code\uCGUI\Core\GUIEncJS.c
+..\output\guiencjs.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+..\output\guiencjs.o: ..\code\uCGUI\Core\GUI_Protected.h
+..\output\guiencjs.o: ..\code\uCGUI\Core\GUI.h
+..\output\guiencjs.o: ..\code\uCGUI\Core\GUI_ConfDefaults.h
+..\output\guiencjs.o: ..\code\GUI\Config\GUIConf.h
+..\output\guiencjs.o: ..\code\uCGUI\Core\GUIType.h
+..\output\guiencjs.o: ..\code\uCGUI\Core\LCD.h
+..\output\guiencjs.o: ..\code\uCGUI\Core\GUIVersion.h
+..\output\guiencjs.o: ..\code\uCGUI\Core\LCD_Protected.h
+..\output\guiencjs.o: ..\code\uCGUI\Core\GUIDebug.h
+..\output\guiencjs.o: ..\code\uCGUI\Core\GUI_X.h
+..\output\guiencjs.o: ..\code\GUI\GUI_inc\WM_GUI.h

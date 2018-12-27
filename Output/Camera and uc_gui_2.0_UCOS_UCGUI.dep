@@ -1,0 +1,872 @@
+Dependencies for Project 'Camera and uc_gui_2.0', Target 'UCOS_UCGUI': (DO NOT MODIFY !)
+F (..\code\system\stm32f10x_it.c)(0x5C160720)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 -Otime --apcs=interwork --split_sections -I ..\code\header -I ..\code\library\inc -I ..\..\include -I ..\..\..\..\library\inc -I ..\..\..\..\..\FWLib\library\inc -I ..\code\FAT16 -I ..\code\driver -I ..\code\ffs -I ..\code\TFT -I ..\code\OV7670 -I ..\code\TFT -I ..\code\menu -I ..\code\TFT\TFT_ILI9328 -I ..\code\RTC -I ..\code\user -I ..\code\GUI\Config -I ..\code\ADC -I ..\FWlib\inc -I ..\code\GUI\GUI_inc -I ..\code\GPS -I ..\code\GUI_4.04\Include -I ..\code\PS2 -I ..\code\driver\delay -I ..\code\application -I ..\code\UCOSII\PORTS -I ..\code\UCOSII\SOURCE -I ..\code\Calculator -I ..\code\uCGUI\AntiAlias -I ..\code\uCGUI\ConvertColor -I ..\code\uCGUI\ConvertMono -I ..\code\uCGUI\Core -I ..\code\uCGUI\Font -I ..\code\uCGUI\MemDev -I ..\code\uCGUI\MultiLayer -I ..\code\uCGUI\Widget -I ..\code\uCGUI\WM-I.\RTE\_UCOS_UCGUI-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\stm32f10x_it.o --omf_browse ..\output\stm32f10x_it.crf --depend ..\output\stm32f10x_it.d)
+I (..\code\system\stm32f10x_it.h)(0x48E9CFCC)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm3.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (..\code\user\stm32f10x_conf.h)(0x51E4175E)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (..\code\GUI\GUI_inc\gui.h)(0x4FA818DA)
+I (..\code\GUI\GUI_inc\GUI_ConfDefaults.h)(0x4F7FF282)
+I (..\code\GUI\Config\GUIConf.h)(0x51E4654C)
+I (..\code\GUI\GUI_inc\GUIType.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\LCD.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\GUIVersion.h)(0x412A8DE0)
+F (..\CMSIS\core_cm3.c)(0x4C0C668E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 -Otime --apcs=interwork --split_sections -I ..\code\header -I ..\code\library\inc -I ..\..\include -I ..\..\..\..\library\inc -I ..\..\..\..\..\FWLib\library\inc -I ..\code\FAT16 -I ..\code\driver -I ..\code\ffs -I ..\code\TFT -I ..\code\OV7670 -I ..\code\TFT -I ..\code\menu -I ..\code\TFT\TFT_ILI9328 -I ..\code\RTC -I ..\code\user -I ..\code\GUI\Config -I ..\code\ADC -I ..\FWlib\inc -I ..\code\GUI\GUI_inc -I ..\code\GPS -I ..\code\GUI_4.04\Include -I ..\code\PS2 -I ..\code\driver\delay -I ..\code\application -I ..\code\UCOSII\PORTS -I ..\code\UCOSII\SOURCE -I ..\code\Calculator -I ..\code\uCGUI\AntiAlias -I ..\code\uCGUI\ConvertColor -I ..\code\uCGUI\ConvertMono -I ..\code\uCGUI\Core -I ..\code\uCGUI\Font -I ..\code\uCGUI\MemDev -I ..\code\uCGUI\MultiLayer -I ..\code\uCGUI\Widget -I ..\code\uCGUI\WM-I.\RTE\_UCOS_UCGUI-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\core_cm3.o --omf_browse ..\output\core_cm3.crf --depend ..\output\core_cm3.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+F (..\CMSIS\system_stm32f10x.c)(0x57780B42)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 -Otime --apcs=interwork --split_sections -I ..\code\header -I ..\code\library\inc -I ..\..\include -I ..\..\..\..\library\inc -I ..\..\..\..\..\FWLib\library\inc -I ..\code\FAT16 -I ..\code\driver -I ..\code\ffs -I ..\code\TFT -I ..\code\OV7670 -I ..\code\TFT -I ..\code\menu -I ..\code\TFT\TFT_ILI9328 -I ..\code\RTC -I ..\code\user -I ..\code\GUI\Config -I ..\code\ADC -I ..\FWlib\inc -I ..\code\GUI\GUI_inc -I ..\code\GPS -I ..\code\GUI_4.04\Include -I ..\code\PS2 -I ..\code\driver\delay -I ..\code\application -I ..\code\UCOSII\PORTS -I ..\code\UCOSII\SOURCE -I ..\code\Calculator -I ..\code\uCGUI\AntiAlias -I ..\code\uCGUI\ConvertColor -I ..\code\uCGUI\ConvertMono -I ..\code\uCGUI\Core -I ..\code\uCGUI\Font -I ..\code\uCGUI\MemDev -I ..\code\uCGUI\MultiLayer -I ..\code\uCGUI\Widget -I ..\code\uCGUI\WM-I.\RTE\_UCOS_UCGUI-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\system_stm32f10x.o --omf_browse ..\output\system_stm32f10x.crf --depend ..\output\system_stm32f10x.d)
+I (..\CMSIS\stm32f10x.h)(0x4F34C842)
+I (..\CMSIS\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\code\user\stm32f10x_conf.h)(0x51E4175E)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+F (..\code\system\startup_stm32f10x_xl.s)(0x5C18B0FF)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_UCOS_UCGUI-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include--pd "__UVISION_VERSION SETA 525" --pd "_RTE_ SETA 1" --pd "STM32F10X_HD SETA 1"--list ..\listing\startup_stm32f10x_xl.lst --xref -o ..\output\startup_stm32f10x_xl.o --depend ..\output\startup_stm32f10x_xl.d)
+F (..\code\ADC\ADC.C)(0x5160F28E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 -Otime --apcs=interwork --split_sections -I ..\code\header -I ..\code\library\inc -I ..\..\include -I ..\..\..\..\library\inc -I ..\..\..\..\..\FWLib\library\inc -I ..\code\FAT16 -I ..\code\driver -I ..\code\ffs -I ..\code\TFT -I ..\code\OV7670 -I ..\code\TFT -I ..\code\menu -I ..\code\TFT\TFT_ILI9328 -I ..\code\RTC -I ..\code\user -I ..\code\GUI\Config -I ..\code\ADC -I ..\FWlib\inc -I ..\code\GUI\GUI_inc -I ..\code\GPS -I ..\code\GUI_4.04\Include -I ..\code\PS2 -I ..\code\driver\delay -I ..\code\application -I ..\code\UCOSII\PORTS -I ..\code\UCOSII\SOURCE -I ..\code\Calculator -I ..\code\uCGUI\AntiAlias -I ..\code\uCGUI\ConvertColor -I ..\code\uCGUI\ConvertMono -I ..\code\uCGUI\Core -I ..\code\uCGUI\Font -I ..\code\uCGUI\MemDev -I ..\code\uCGUI\MultiLayer -I ..\code\uCGUI\Widget -I ..\code\uCGUI\WM-I.\RTE\_UCOS_UCGUI-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\adc.o --omf_browse ..\output\adc.crf --depend ..\output\adc.d)
+I (..\code\ADC\adc.h)(0x509A6120)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm3.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (..\code\user\stm32f10x_conf.h)(0x51E4175E)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+I (..\code\GUI\GUI_inc\gui.h)(0x4FA818DA)
+I (..\code\GUI\GUI_inc\GUI_ConfDefaults.h)(0x4F7FF282)
+I (..\code\GUI\Config\GUIConf.h)(0x51E4654C)
+I (..\code\GUI\GUI_inc\GUIType.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\LCD.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\GUIVersion.h)(0x412A8DE0)
+I (..\code\driver\SysConfig.h)(0x5C1A1985)
+F (..\code\user\main.c)(0x5C171D47)(-c --cpu Cortex-M3 -D__MICROLIB -g -W -O2 -Otime --apcs=interwork --split_sections -I ..\code\header -I ..\code\library\inc -I ..\..\include -I ..\..\..\..\library\inc -I ..\..\..\..\..\FWLib\library\inc -I ..\code\FAT16 -I ..\code\driver -I ..\code\ffs -I ..\code\TFT -I ..\code\OV7670 -I ..\code\TFT -I ..\code\menu -I ..\code\TFT\TFT_ILI9328 -I ..\code\RTC -I ..\code\user -I ..\code\GUI\Config -I ..\code\ADC -I ..\FWlib\inc -I ..\code\GUI\GUI_inc -I ..\code\GPS -I ..\code\GUI_4.04\Include -I ..\code\PS2 -I ..\code\driver\delay -I ..\code\application -I ..\code\UCOSII\PORTS -I ..\code\UCOSII\SOURCE -I ..\code\Calculator -I ..\code\uCGUI\AntiAlias -I ..\code\uCGUI\ConvertColor -I ..\code\uCGUI\ConvertMono -I ..\code\uCGUI\Core -I ..\code\uCGUI\Font -I ..\code\uCGUI\MemDev -I ..\code\uCGUI\MultiLayer -I ..\code\uCGUI\Widget -I ..\code\uCGUI\WM-I.\RTE\_UCOS_UCGUI-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\main.o --omf_browse ..\output\main.crf --depend ..\output\main.d)
+I (..\code\user\main.h)(0x5C163A2A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm3.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (..\code\user\stm32f10x_conf.h)(0x51E4175E)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+I (..\code\GUI\GUI_inc\gui.h)(0x4FA818DA)
+I (..\code\GUI\GUI_inc\GUI_ConfDefaults.h)(0x4F7FF282)
+I (..\code\GUI\Config\GUIConf.h)(0x51E4654C)
+I (..\code\GUI\GUI_inc\GUIType.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\LCD.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\GUIVersion.h)(0x412A8DE0)
+I (..\code\TFT\touch.h)(0x5C171D47)
+I (..\code\driver\SysConfig.h)(0x5C1A1985)
+I (..\code\TFT\TFT_ILI9328\ili9325.h)(0x5C1632CA)
+I (..\code\user\ucGUI_Practice.h)(0x5C1A0733)
+I (..\code\GUI\GUI_inc\GUI_Private.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\GUI_Protected.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\LCD_Protected.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\GUIDebug.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\GUI_X.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\WM_GUI.h)(0x4123FD72)
+I (..\code\GUI\GUI_inc\LCD_Private.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\LCD_ConfDefaults.h)(0x4F7FF28C)
+I (..\code\GUI\Config\LCDConf.h)(0x51E46716)
+I (..\code\driver\delay.h)(0x5C163C6C)
+I (..\code\application\os_cfg.h)(0x505ADD84)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\code\UCOSII\SOURCE\ucos_ii.h)(0x504AA4BA)
+I (..\code\application\app_cfg.h)(0x5C187650)
+I (..\code\UCOSII\PORTS\os_cpu.h)(0x504A018E)
+F (..\code\GUI\GUI_X.c)(0x51CB01B0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 -Otime --apcs=interwork --split_sections -I ..\code\header -I ..\code\library\inc -I ..\..\include -I ..\..\..\..\library\inc -I ..\..\..\..\..\FWLib\library\inc -I ..\code\FAT16 -I ..\code\driver -I ..\code\ffs -I ..\code\TFT -I ..\code\OV7670 -I ..\code\TFT -I ..\code\menu -I ..\code\TFT\TFT_ILI9328 -I ..\code\RTC -I ..\code\user -I ..\code\GUI\Config -I ..\code\ADC -I ..\FWlib\inc -I ..\code\GUI\GUI_inc -I ..\code\GPS -I ..\code\GUI_4.04\Include -I ..\code\PS2 -I ..\code\driver\delay -I ..\code\application -I ..\code\UCOSII\PORTS -I ..\code\UCOSII\SOURCE -I ..\code\Calculator -I ..\code\uCGUI\AntiAlias -I ..\code\uCGUI\ConvertColor -I ..\code\uCGUI\ConvertMono -I ..\code\uCGUI\Core -I ..\code\uCGUI\Font -I ..\code\uCGUI\MemDev -I ..\code\uCGUI\MultiLayer -I ..\code\uCGUI\Widget -I ..\code\uCGUI\WM-I.\RTE\_UCOS_UCGUI-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\gui_x.o --omf_browse ..\output\gui_x.crf --depend ..\output\gui_x.d)
+I (..\code\GUI\GUI_inc\GUI.h)(0x4FA818DA)
+I (..\code\GUI\GUI_inc\GUI_ConfDefaults.h)(0x4F7FF282)
+I (..\code\GUI\Config\GUIConf.h)(0x51E4654C)
+I (..\code\GUI\GUI_inc\GUIType.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\LCD.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\GUIVersion.h)(0x412A8DE0)
+I (..\code\GUI\GUI_inc\GUI_X.h)(0x4123FD70)
+F (..\code\user\ucGUI_Practice.c)(0x5C1A20FD)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 -Otime --apcs=interwork --split_sections -I ..\code\header -I ..\code\library\inc -I ..\..\include -I ..\..\..\..\library\inc -I ..\..\..\..\..\FWLib\library\inc -I ..\code\FAT16 -I ..\code\driver -I ..\code\ffs -I ..\code\TFT -I ..\code\OV7670 -I ..\code\TFT -I ..\code\menu -I ..\code\TFT\TFT_ILI9328 -I ..\code\RTC -I ..\code\user -I ..\code\GUI\Config -I ..\code\ADC -I ..\FWlib\inc -I ..\code\GUI\GUI_inc -I ..\code\GPS -I ..\code\GUI_4.04\Include -I ..\code\PS2 -I ..\code\driver\delay -I ..\code\application -I ..\code\UCOSII\PORTS -I ..\code\UCOSII\SOURCE -I ..\code\Calculator -I ..\code\uCGUI\AntiAlias -I ..\code\uCGUI\ConvertColor -I ..\code\uCGUI\ConvertMono -I ..\code\uCGUI\Core -I ..\code\uCGUI\Font -I ..\code\uCGUI\MemDev -I ..\code\uCGUI\MultiLayer -I ..\code\uCGUI\Widget -I ..\code\uCGUI\WM-I.\RTE\_UCOS_UCGUI-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\ucgui_practice.o --omf_browse ..\output\ucgui_practice.crf --depend ..\output\ucgui_practice.d)
+I (..\code\user\ucGUI_Practice.h)(0x5C1A0733)
+I (..\code\GUI\GUI_inc\gui.h)(0x4FA818DA)
+I (..\code\GUI\GUI_inc\GUI_ConfDefaults.h)(0x4F7FF282)
+I (..\code\GUI\Config\GUIConf.h)(0x51E4654C)
+I (..\code\GUI\GUI_inc\GUIType.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\LCD.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\GUIVersion.h)(0x412A8DE0)
+I (..\code\GUI\GUI_inc\GUI_Private.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\GUI_Protected.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\LCD_Protected.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\GUIDebug.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\GUI_X.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\WM_GUI.h)(0x4123FD72)
+I (..\code\GUI\GUI_inc\LCD_Private.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\LCD_ConfDefaults.h)(0x4F7FF28C)
+I (..\code\GUI\Config\LCDConf.h)(0x51E46716)
+I (..\code\TFT\touch.h)(0x5C171D47)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm3.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (..\code\user\stm32f10x_conf.h)(0x51E4175E)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+I (..\code\TFT\TFT_ILI9328\ili9325.h)(0x5C1632CA)
+I (..\code\driver\delay.h)(0x5C163C6C)
+I (..\code\application\os_cfg.h)(0x505ADD84)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+F (..\code\user\main.h)(0x5C163A2A)()
+F (..\code\GUI\mylib.lib)(0x5C1619F2)()
+F (..\code\application\app.c)(0x5C1A403A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 -Otime --apcs=interwork --split_sections -I ..\code\header -I ..\code\library\inc -I ..\..\include -I ..\..\..\..\library\inc -I ..\..\..\..\..\FWLib\library\inc -I ..\code\FAT16 -I ..\code\driver -I ..\code\ffs -I ..\code\TFT -I ..\code\OV7670 -I ..\code\TFT -I ..\code\menu -I ..\code\TFT\TFT_ILI9328 -I ..\code\RTC -I ..\code\user -I ..\code\GUI\Config -I ..\code\ADC -I ..\FWlib\inc -I ..\code\GUI\GUI_inc -I ..\code\GPS -I ..\code\GUI_4.04\Include -I ..\code\PS2 -I ..\code\driver\delay -I ..\code\application -I ..\code\UCOSII\PORTS -I ..\code\UCOSII\SOURCE -I ..\code\Calculator -I ..\code\uCGUI\AntiAlias -I ..\code\uCGUI\ConvertColor -I ..\code\uCGUI\ConvertMono -I ..\code\uCGUI\Core -I ..\code\uCGUI\Font -I ..\code\uCGUI\MemDev -I ..\code\uCGUI\MultiLayer -I ..\code\uCGUI\Widget -I ..\code\uCGUI\WM-I.\RTE\_UCOS_UCGUI-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\app.o --omf_browse ..\output\app.crf --depend ..\output\app.d)
+I (..\code\application\app_cfg.h)(0x5C187650)
+I (..\code\TFT\touch.h)(0x5C171D47)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm3.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (..\code\user\stm32f10x_conf.h)(0x51E4175E)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+I (..\code\UCOSII\SOURCE\ucos_ii.h)(0x504AA4BA)
+I (..\code\application\os_cfg.h)(0x505ADD84)
+I (..\code\UCOSII\PORTS\os_cpu.h)(0x504A018E)
+I (..\code\user\main.h)(0x5C163A2A)
+I (..\code\GUI\GUI_inc\gui.h)(0x4FA818DA)
+I (..\code\GUI\GUI_inc\GUI_ConfDefaults.h)(0x4F7FF282)
+I (..\code\GUI\Config\GUIConf.h)(0x51E4654C)
+I (..\code\GUI\GUI_inc\GUIType.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\LCD.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\GUIVersion.h)(0x412A8DE0)
+I (..\code\driver\SysConfig.h)(0x5C1A1985)
+I (..\code\TFT\TFT_ILI9328\ili9325.h)(0x5C1632CA)
+I (..\code\user\ucGUI_Practice.h)(0x5C1A0733)
+I (..\code\GUI\GUI_inc\GUI_Private.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\GUI_Protected.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\LCD_Protected.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\GUIDebug.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\GUI_X.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\WM_GUI.h)(0x4123FD72)
+I (..\code\GUI\GUI_inc\LCD_Private.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\LCD_ConfDefaults.h)(0x4F7FF28C)
+I (..\code\GUI\Config\LCDConf.h)(0x51E46716)
+I (..\code\driver\delay.h)(0x5C163C6C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+F (..\code\application\app_cfg.h)(0x5C187650)()
+F (..\code\application\os_cfg.h)(0x505ADD84)()
+F (..\code\application\MyCalculator V1.0.c)(0x5C19D6A8)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 -Otime --apcs=interwork --split_sections -I ..\code\header -I ..\code\library\inc -I ..\..\include -I ..\..\..\..\library\inc -I ..\..\..\..\..\FWLib\library\inc -I ..\code\FAT16 -I ..\code\driver -I ..\code\ffs -I ..\code\TFT -I ..\code\OV7670 -I ..\code\TFT -I ..\code\menu -I ..\code\TFT\TFT_ILI9328 -I ..\code\RTC -I ..\code\user -I ..\code\GUI\Config -I ..\code\ADC -I ..\FWlib\inc -I ..\code\GUI\GUI_inc -I ..\code\GPS -I ..\code\GUI_4.04\Include -I ..\code\PS2 -I ..\code\driver\delay -I ..\code\application -I ..\code\UCOSII\PORTS -I ..\code\UCOSII\SOURCE -I ..\code\Calculator -I ..\code\uCGUI\AntiAlias -I ..\code\uCGUI\ConvertColor -I ..\code\uCGUI\ConvertMono -I ..\code\uCGUI\Core -I ..\code\uCGUI\Font -I ..\code\uCGUI\MemDev -I ..\code\uCGUI\MultiLayer -I ..\code\uCGUI\Widget -I ..\code\uCGUI\WM-I.\RTE\_UCOS_UCGUI-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o "..\output\mycalculator v1.0.o" --omf_browse "..\output\mycalculator v1.0.crf" --depend "..\output\mycalculator v1.0.d")
+I (..\code\GUI\GUI_inc\DIALOG.h)(0x4123FD72)
+I (..\code\GUI\GUI_inc\WM.h)(0x4123FD72)
+I (..\code\GUI\GUI_inc\GUI_ConfDefaults.h)(0x4F7FF282)
+I (..\code\GUI\Config\GUIConf.h)(0x51E4654C)
+I (..\code\GUI\GUI_inc\GUIType.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\LCD.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\WM_GUI.h)(0x4123FD72)
+I (..\code\GUI\GUI_inc\BUTTON.h)(0x4123FD72)
+I (..\code\GUI\GUI_inc\DIALOG_Intern.h)(0x4123FD72)
+I (..\code\GUI\GUI_inc\WIDGET.h)(0x4123FD72)
+I (..\code\GUI\GUI_inc\WM_Intern.h)(0x4123FD72)
+I (..\code\GUI\GUI_inc\GUI_Protected.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\GUI.h)(0x4FA818DA)
+I (..\code\GUI\GUI_inc\GUIVersion.h)(0x412A8DE0)
+I (..\code\GUI\GUI_inc\LCD_Protected.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\GUIDebug.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\GUI_X.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\SCROLLBAR.h)(0x4123FD72)
+I (..\code\GUI\GUI_inc\CHECKBOX.h)(0x4123FD72)
+I (..\code\GUI\GUI_inc\DROPDOWN.h)(0x4123FD72)
+I (..\code\GUI\GUI_inc\EDIT.h)(0x4123FD72)
+I (..\code\GUI\GUI_inc\FRAMEWIN.h)(0x4123FD72)
+I (..\code\GUI\GUI_inc\LISTBOX.h)(0x4123FD72)
+I (..\code\GUI\GUI_inc\MULTIEDIT.h)(0x4123FD72)
+I (..\code\GUI\GUI_inc\RADIO.h)(0x4123FD72)
+I (..\code\GUI\GUI_inc\SLIDER.h)(0x4123FD72)
+I (..\code\GUI\GUI_inc\TEXT.h)(0x4123FD72)
+I (..\code\Calculator\calculator.h)(0x5C18E2C6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x599ECD2E)
+I (..\code\Calculator\stack.h)(0x57CBB712)
+I (..\code\Calculator\fpconv.h)(0x5994A9E0)
+F (..\code\application\AboutFrame.c)(0x5C1A0733)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 -Otime --apcs=interwork --split_sections -I ..\code\header -I ..\code\library\inc -I ..\..\include -I ..\..\..\..\library\inc -I ..\..\..\..\..\FWLib\library\inc -I ..\code\FAT16 -I ..\code\driver -I ..\code\ffs -I ..\code\TFT -I ..\code\OV7670 -I ..\code\TFT -I ..\code\menu -I ..\code\TFT\TFT_ILI9328 -I ..\code\RTC -I ..\code\user -I ..\code\GUI\Config -I ..\code\ADC -I ..\FWlib\inc -I ..\code\GUI\GUI_inc -I ..\code\GPS -I ..\code\GUI_4.04\Include -I ..\code\PS2 -I ..\code\driver\delay -I ..\code\application -I ..\code\UCOSII\PORTS -I ..\code\UCOSII\SOURCE -I ..\code\Calculator -I ..\code\uCGUI\AntiAlias -I ..\code\uCGUI\ConvertColor -I ..\code\uCGUI\ConvertMono -I ..\code\uCGUI\Core -I ..\code\uCGUI\Font -I ..\code\uCGUI\MemDev -I ..\code\uCGUI\MultiLayer -I ..\code\uCGUI\Widget -I ..\code\uCGUI\WM-I.\RTE\_UCOS_UCGUI-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\aboutframe.o --omf_browse ..\output\aboutframe.crf --depend ..\output\aboutframe.d)
+I (..\code\GUI\GUI_inc\DIALOG.h)(0x4123FD72)
+I (..\code\GUI\GUI_inc\WM.h)(0x4123FD72)
+I (..\code\GUI\GUI_inc\GUI_ConfDefaults.h)(0x4F7FF282)
+I (..\code\GUI\Config\GUIConf.h)(0x51E4654C)
+I (..\code\GUI\GUI_inc\GUIType.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\LCD.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\WM_GUI.h)(0x4123FD72)
+I (..\code\GUI\GUI_inc\BUTTON.h)(0x4123FD72)
+I (..\code\GUI\GUI_inc\DIALOG_Intern.h)(0x4123FD72)
+I (..\code\GUI\GUI_inc\WIDGET.h)(0x4123FD72)
+I (..\code\GUI\GUI_inc\WM_Intern.h)(0x4123FD72)
+I (..\code\GUI\GUI_inc\GUI_Protected.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\GUI.h)(0x4FA818DA)
+I (..\code\GUI\GUI_inc\GUIVersion.h)(0x412A8DE0)
+I (..\code\GUI\GUI_inc\LCD_Protected.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\GUIDebug.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\GUI_X.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\SCROLLBAR.h)(0x4123FD72)
+I (..\code\GUI\GUI_inc\CHECKBOX.h)(0x4123FD72)
+I (..\code\GUI\GUI_inc\DROPDOWN.h)(0x4123FD72)
+I (..\code\GUI\GUI_inc\EDIT.h)(0x4123FD72)
+I (..\code\GUI\GUI_inc\FRAMEWIN.h)(0x4123FD72)
+I (..\code\GUI\GUI_inc\LISTBOX.h)(0x4123FD72)
+I (..\code\GUI\GUI_inc\MULTIEDIT.h)(0x4123FD72)
+I (..\code\GUI\GUI_inc\RADIO.h)(0x4123FD72)
+I (..\code\GUI\GUI_inc\SLIDER.h)(0x4123FD72)
+I (..\code\GUI\GUI_inc\TEXT.h)(0x4123FD72)
+F (..\code\TFT\TFT_ILI9328\ILI9325.c)(0x57781B14)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 -Otime --apcs=interwork --split_sections -I ..\code\header -I ..\code\library\inc -I ..\..\include -I ..\..\..\..\library\inc -I ..\..\..\..\..\FWLib\library\inc -I ..\code\FAT16 -I ..\code\driver -I ..\code\ffs -I ..\code\TFT -I ..\code\OV7670 -I ..\code\TFT -I ..\code\menu -I ..\code\TFT\TFT_ILI9328 -I ..\code\RTC -I ..\code\user -I ..\code\GUI\Config -I ..\code\ADC -I ..\FWlib\inc -I ..\code\GUI\GUI_inc -I ..\code\GPS -I ..\code\GUI_4.04\Include -I ..\code\PS2 -I ..\code\driver\delay -I ..\code\application -I ..\code\UCOSII\PORTS -I ..\code\UCOSII\SOURCE -I ..\code\Calculator -I ..\code\uCGUI\AntiAlias -I ..\code\uCGUI\ConvertColor -I ..\code\uCGUI\ConvertMono -I ..\code\uCGUI\Core -I ..\code\uCGUI\Font -I ..\code\uCGUI\MemDev -I ..\code\uCGUI\MultiLayer -I ..\code\uCGUI\Widget -I ..\code\uCGUI\WM-I.\RTE\_UCOS_UCGUI-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\ili9325.o --omf_browse ..\output\ili9325.crf --depend ..\output\ili9325.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm3.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (..\code\user\stm32f10x_conf.h)(0x51E4175E)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+I (..\code\TFT\TFT_ILI9328\ili9325.h)(0x5C1632CA)
+F (..\code\TFT\lcm_api.c)(0x518DD448)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 -Otime --apcs=interwork --split_sections -I ..\code\header -I ..\code\library\inc -I ..\..\include -I ..\..\..\..\library\inc -I ..\..\..\..\..\FWLib\library\inc -I ..\code\FAT16 -I ..\code\driver -I ..\code\ffs -I ..\code\TFT -I ..\code\OV7670 -I ..\code\TFT -I ..\code\menu -I ..\code\TFT\TFT_ILI9328 -I ..\code\RTC -I ..\code\user -I ..\code\GUI\Config -I ..\code\ADC -I ..\FWlib\inc -I ..\code\GUI\GUI_inc -I ..\code\GPS -I ..\code\GUI_4.04\Include -I ..\code\PS2 -I ..\code\driver\delay -I ..\code\application -I ..\code\UCOSII\PORTS -I ..\code\UCOSII\SOURCE -I ..\code\Calculator -I ..\code\uCGUI\AntiAlias -I ..\code\uCGUI\ConvertColor -I ..\code\uCGUI\ConvertMono -I ..\code\uCGUI\Core -I ..\code\uCGUI\Font -I ..\code\uCGUI\MemDev -I ..\code\uCGUI\MultiLayer -I ..\code\uCGUI\Widget -I ..\code\uCGUI\WM-I.\RTE\_UCOS_UCGUI-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\lcm_api.o --omf_browse ..\output\lcm_api.crf --depend ..\output\lcm_api.d)
+I (..\code\TFT\lcm_api.h)(0x5187FC40)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm3.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (..\code\user\stm32f10x_conf.h)(0x51E4175E)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+I (..\code\GUI\GUI_inc\GUI_Private.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\GUI_Protected.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\GUI.h)(0x4FA818DA)
+I (..\code\GUI\GUI_inc\GUI_ConfDefaults.h)(0x4F7FF282)
+I (..\code\GUI\Config\GUIConf.h)(0x51E4654C)
+I (..\code\GUI\GUI_inc\GUIType.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\LCD.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\GUIVersion.h)(0x412A8DE0)
+I (..\code\GUI\GUI_inc\LCD_Protected.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\GUIDebug.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\GUI_X.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\WM_GUI.h)(0x4123FD72)
+I (..\code\GUI\GUI_inc\LCD_Private.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\LCD_ConfDefaults.h)(0x4F7FF28C)
+I (..\code\GUI\Config\LCDConf.h)(0x51E46716)
+I (..\code\TFT\lcm_font.h)(0x5187D43A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (..\code\TFT\TFT_ILI9328\ili9325.h)(0x5C1632CA)
+F (..\code\TFT\touch.c)(0x5C1A403A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 -Otime --apcs=interwork --split_sections -I ..\code\header -I ..\code\library\inc -I ..\..\include -I ..\..\..\..\library\inc -I ..\..\..\..\..\FWLib\library\inc -I ..\code\FAT16 -I ..\code\driver -I ..\code\ffs -I ..\code\TFT -I ..\code\OV7670 -I ..\code\TFT -I ..\code\menu -I ..\code\TFT\TFT_ILI9328 -I ..\code\RTC -I ..\code\user -I ..\code\GUI\Config -I ..\code\ADC -I ..\FWlib\inc -I ..\code\GUI\GUI_inc -I ..\code\GPS -I ..\code\GUI_4.04\Include -I ..\code\PS2 -I ..\code\driver\delay -I ..\code\application -I ..\code\UCOSII\PORTS -I ..\code\UCOSII\SOURCE -I ..\code\Calculator -I ..\code\uCGUI\AntiAlias -I ..\code\uCGUI\ConvertColor -I ..\code\uCGUI\ConvertMono -I ..\code\uCGUI\Core -I ..\code\uCGUI\Font -I ..\code\uCGUI\MemDev -I ..\code\uCGUI\MultiLayer -I ..\code\uCGUI\Widget -I ..\code\uCGUI\WM-I.\RTE\_UCOS_UCGUI-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\touch.o --omf_browse ..\output\touch.crf --depend ..\output\touch.d)
+I (..\code\TFT\TFT_ILI9328\ili9325.h)(0x5C1632CA)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm3.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (..\code\user\stm32f10x_conf.h)(0x51E4175E)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+I (..\code\TFT\touch.h)(0x5C171D47)
+I (..\code\TFT\lcm_api.h)(0x5187FC40)
+F (..\code\driver\SysConfig.c)(0x5C1A403A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 -Otime --apcs=interwork --split_sections -I ..\code\header -I ..\code\library\inc -I ..\..\include -I ..\..\..\..\library\inc -I ..\..\..\..\..\FWLib\library\inc -I ..\code\FAT16 -I ..\code\driver -I ..\code\ffs -I ..\code\TFT -I ..\code\OV7670 -I ..\code\TFT -I ..\code\menu -I ..\code\TFT\TFT_ILI9328 -I ..\code\RTC -I ..\code\user -I ..\code\GUI\Config -I ..\code\ADC -I ..\FWlib\inc -I ..\code\GUI\GUI_inc -I ..\code\GPS -I ..\code\GUI_4.04\Include -I ..\code\PS2 -I ..\code\driver\delay -I ..\code\application -I ..\code\UCOSII\PORTS -I ..\code\UCOSII\SOURCE -I ..\code\Calculator -I ..\code\uCGUI\AntiAlias -I ..\code\uCGUI\ConvertColor -I ..\code\uCGUI\ConvertMono -I ..\code\uCGUI\Core -I ..\code\uCGUI\Font -I ..\code\uCGUI\MemDev -I ..\code\uCGUI\MultiLayer -I ..\code\uCGUI\Widget -I ..\code\uCGUI\WM-I.\RTE\_UCOS_UCGUI-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\sysconfig.o --omf_browse ..\output\sysconfig.crf --depend ..\output\sysconfig.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm3.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (..\code\user\stm32f10x_conf.h)(0x51E4175E)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+I (..\code\driver\SysConfig.h)(0x5C1A1985)
+F (..\code\driver\uart.c)(0x518FAA52)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 -Otime --apcs=interwork --split_sections -I ..\code\header -I ..\code\library\inc -I ..\..\include -I ..\..\..\..\library\inc -I ..\..\..\..\..\FWLib\library\inc -I ..\code\FAT16 -I ..\code\driver -I ..\code\ffs -I ..\code\TFT -I ..\code\OV7670 -I ..\code\TFT -I ..\code\menu -I ..\code\TFT\TFT_ILI9328 -I ..\code\RTC -I ..\code\user -I ..\code\GUI\Config -I ..\code\ADC -I ..\FWlib\inc -I ..\code\GUI\GUI_inc -I ..\code\GPS -I ..\code\GUI_4.04\Include -I ..\code\PS2 -I ..\code\driver\delay -I ..\code\application -I ..\code\UCOSII\PORTS -I ..\code\UCOSII\SOURCE -I ..\code\Calculator -I ..\code\uCGUI\AntiAlias -I ..\code\uCGUI\ConvertColor -I ..\code\uCGUI\ConvertMono -I ..\code\uCGUI\Core -I ..\code\uCGUI\Font -I ..\code\uCGUI\MemDev -I ..\code\uCGUI\MultiLayer -I ..\code\uCGUI\Widget -I ..\code\uCGUI\WM-I.\RTE\_UCOS_UCGUI-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\uart.o --omf_browse ..\output\uart.crf --depend ..\output\uart.d)
+I (..\code\header\config.h)(0x5099C9D6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\setjmp.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\ARMCC\include\rt_misc.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm3.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (..\code\user\stm32f10x_conf.h)(0x51E4175E)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+I (..\code\header\../system/stm32f10x_it.h)(0x48E9CFCC)
+F (..\code\driver\delay.c)(0x5C163C7C)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 -Otime --apcs=interwork --split_sections -I ..\code\header -I ..\code\library\inc -I ..\..\include -I ..\..\..\..\library\inc -I ..\..\..\..\..\FWLib\library\inc -I ..\code\FAT16 -I ..\code\driver -I ..\code\ffs -I ..\code\TFT -I ..\code\OV7670 -I ..\code\TFT -I ..\code\menu -I ..\code\TFT\TFT_ILI9328 -I ..\code\RTC -I ..\code\user -I ..\code\GUI\Config -I ..\code\ADC -I ..\FWlib\inc -I ..\code\GUI\GUI_inc -I ..\code\GPS -I ..\code\GUI_4.04\Include -I ..\code\PS2 -I ..\code\driver\delay -I ..\code\application -I ..\code\UCOSII\PORTS -I ..\code\UCOSII\SOURCE -I ..\code\Calculator -I ..\code\uCGUI\AntiAlias -I ..\code\uCGUI\ConvertColor -I ..\code\uCGUI\ConvertMono -I ..\code\uCGUI\Core -I ..\code\uCGUI\Font -I ..\code\uCGUI\MemDev -I ..\code\uCGUI\MultiLayer -I ..\code\uCGUI\Widget -I ..\code\uCGUI\WM-I.\RTE\_UCOS_UCGUI-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\delay.o --omf_browse ..\output\delay.crf --depend ..\output\delay.d)
+I (..\code\driver\delay.h)(0x5C163C6C)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm3.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (..\code\user\stm32f10x_conf.h)(0x51E4175E)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+I (..\code\application\os_cfg.h)(0x505ADD84)
+F (..\FWlib\src\stm32f10x_adc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 -Otime --apcs=interwork --split_sections -I ..\code\header -I ..\code\library\inc -I ..\..\include -I ..\..\..\..\library\inc -I ..\..\..\..\..\FWLib\library\inc -I ..\code\FAT16 -I ..\code\driver -I ..\code\ffs -I ..\code\TFT -I ..\code\OV7670 -I ..\code\TFT -I ..\code\menu -I ..\code\TFT\TFT_ILI9328 -I ..\code\RTC -I ..\code\user -I ..\code\GUI\Config -I ..\code\ADC -I ..\FWlib\inc -I ..\code\GUI\GUI_inc -I ..\code\GPS -I ..\code\GUI_4.04\Include -I ..\code\PS2 -I ..\code\driver\delay -I ..\code\application -I ..\code\UCOSII\PORTS -I ..\code\UCOSII\SOURCE -I ..\code\Calculator -I ..\code\uCGUI\AntiAlias -I ..\code\uCGUI\ConvertColor -I ..\code\uCGUI\ConvertMono -I ..\code\uCGUI\Core -I ..\code\uCGUI\Font -I ..\code\uCGUI\MemDev -I ..\code\uCGUI\MultiLayer -I ..\code\uCGUI\Widget -I ..\code\uCGUI\WM-I.\RTE\_UCOS_UCGUI-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\stm32f10x_adc.o --omf_browse ..\output\stm32f10x_adc.crf --depend ..\output\stm32f10x_adc.d)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm3.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (..\code\user\stm32f10x_conf.h)(0x51E4175E)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+F (..\FWlib\src\stm32f10x_gpio.c)(0x4D79EEC6)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 -Otime --apcs=interwork --split_sections -I ..\code\header -I ..\code\library\inc -I ..\..\include -I ..\..\..\..\library\inc -I ..\..\..\..\..\FWLib\library\inc -I ..\code\FAT16 -I ..\code\driver -I ..\code\ffs -I ..\code\TFT -I ..\code\OV7670 -I ..\code\TFT -I ..\code\menu -I ..\code\TFT\TFT_ILI9328 -I ..\code\RTC -I ..\code\user -I ..\code\GUI\Config -I ..\code\ADC -I ..\FWlib\inc -I ..\code\GUI\GUI_inc -I ..\code\GPS -I ..\code\GUI_4.04\Include -I ..\code\PS2 -I ..\code\driver\delay -I ..\code\application -I ..\code\UCOSII\PORTS -I ..\code\UCOSII\SOURCE -I ..\code\Calculator -I ..\code\uCGUI\AntiAlias -I ..\code\uCGUI\ConvertColor -I ..\code\uCGUI\ConvertMono -I ..\code\uCGUI\Core -I ..\code\uCGUI\Font -I ..\code\uCGUI\MemDev -I ..\code\uCGUI\MultiLayer -I ..\code\uCGUI\Widget -I ..\code\uCGUI\WM-I.\RTE\_UCOS_UCGUI-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\stm32f10x_gpio.o --omf_browse ..\output\stm32f10x_gpio.crf --depend ..\output\stm32f10x_gpio.d)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm3.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (..\code\user\stm32f10x_conf.h)(0x51E4175E)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+F (..\FWlib\src\stm32f10x_rtc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 -Otime --apcs=interwork --split_sections -I ..\code\header -I ..\code\library\inc -I ..\..\include -I ..\..\..\..\library\inc -I ..\..\..\..\..\FWLib\library\inc -I ..\code\FAT16 -I ..\code\driver -I ..\code\ffs -I ..\code\TFT -I ..\code\OV7670 -I ..\code\TFT -I ..\code\menu -I ..\code\TFT\TFT_ILI9328 -I ..\code\RTC -I ..\code\user -I ..\code\GUI\Config -I ..\code\ADC -I ..\FWlib\inc -I ..\code\GUI\GUI_inc -I ..\code\GPS -I ..\code\GUI_4.04\Include -I ..\code\PS2 -I ..\code\driver\delay -I ..\code\application -I ..\code\UCOSII\PORTS -I ..\code\UCOSII\SOURCE -I ..\code\Calculator -I ..\code\uCGUI\AntiAlias -I ..\code\uCGUI\ConvertColor -I ..\code\uCGUI\ConvertMono -I ..\code\uCGUI\Core -I ..\code\uCGUI\Font -I ..\code\uCGUI\MemDev -I ..\code\uCGUI\MultiLayer -I ..\code\uCGUI\Widget -I ..\code\uCGUI\WM-I.\RTE\_UCOS_UCGUI-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\stm32f10x_rtc.o --omf_browse ..\output\stm32f10x_rtc.crf --depend ..\output\stm32f10x_rtc.d)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm3.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (..\code\user\stm32f10x_conf.h)(0x51E4175E)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+F (..\FWlib\src\stm32f10x_rcc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 -Otime --apcs=interwork --split_sections -I ..\code\header -I ..\code\library\inc -I ..\..\include -I ..\..\..\..\library\inc -I ..\..\..\..\..\FWLib\library\inc -I ..\code\FAT16 -I ..\code\driver -I ..\code\ffs -I ..\code\TFT -I ..\code\OV7670 -I ..\code\TFT -I ..\code\menu -I ..\code\TFT\TFT_ILI9328 -I ..\code\RTC -I ..\code\user -I ..\code\GUI\Config -I ..\code\ADC -I ..\FWlib\inc -I ..\code\GUI\GUI_inc -I ..\code\GPS -I ..\code\GUI_4.04\Include -I ..\code\PS2 -I ..\code\driver\delay -I ..\code\application -I ..\code\UCOSII\PORTS -I ..\code\UCOSII\SOURCE -I ..\code\Calculator -I ..\code\uCGUI\AntiAlias -I ..\code\uCGUI\ConvertColor -I ..\code\uCGUI\ConvertMono -I ..\code\uCGUI\Core -I ..\code\uCGUI\Font -I ..\code\uCGUI\MemDev -I ..\code\uCGUI\MultiLayer -I ..\code\uCGUI\Widget -I ..\code\uCGUI\WM-I.\RTE\_UCOS_UCGUI-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\stm32f10x_rcc.o --omf_browse ..\output\stm32f10x_rcc.crf --depend ..\output\stm32f10x_rcc.d)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm3.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (..\code\user\stm32f10x_conf.h)(0x51E4175E)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+F (..\FWlib\src\stm32f10x_spi.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 -Otime --apcs=interwork --split_sections -I ..\code\header -I ..\code\library\inc -I ..\..\include -I ..\..\..\..\library\inc -I ..\..\..\..\..\FWLib\library\inc -I ..\code\FAT16 -I ..\code\driver -I ..\code\ffs -I ..\code\TFT -I ..\code\OV7670 -I ..\code\TFT -I ..\code\menu -I ..\code\TFT\TFT_ILI9328 -I ..\code\RTC -I ..\code\user -I ..\code\GUI\Config -I ..\code\ADC -I ..\FWlib\inc -I ..\code\GUI\GUI_inc -I ..\code\GPS -I ..\code\GUI_4.04\Include -I ..\code\PS2 -I ..\code\driver\delay -I ..\code\application -I ..\code\UCOSII\PORTS -I ..\code\UCOSII\SOURCE -I ..\code\Calculator -I ..\code\uCGUI\AntiAlias -I ..\code\uCGUI\ConvertColor -I ..\code\uCGUI\ConvertMono -I ..\code\uCGUI\Core -I ..\code\uCGUI\Font -I ..\code\uCGUI\MemDev -I ..\code\uCGUI\MultiLayer -I ..\code\uCGUI\Widget -I ..\code\uCGUI\WM-I.\RTE\_UCOS_UCGUI-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\stm32f10x_spi.o --omf_browse ..\output\stm32f10x_spi.crf --depend ..\output\stm32f10x_spi.d)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm3.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (..\code\user\stm32f10x_conf.h)(0x51E4175E)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+F (..\FWlib\src\stm32f10x_tim.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 -Otime --apcs=interwork --split_sections -I ..\code\header -I ..\code\library\inc -I ..\..\include -I ..\..\..\..\library\inc -I ..\..\..\..\..\FWLib\library\inc -I ..\code\FAT16 -I ..\code\driver -I ..\code\ffs -I ..\code\TFT -I ..\code\OV7670 -I ..\code\TFT -I ..\code\menu -I ..\code\TFT\TFT_ILI9328 -I ..\code\RTC -I ..\code\user -I ..\code\GUI\Config -I ..\code\ADC -I ..\FWlib\inc -I ..\code\GUI\GUI_inc -I ..\code\GPS -I ..\code\GUI_4.04\Include -I ..\code\PS2 -I ..\code\driver\delay -I ..\code\application -I ..\code\UCOSII\PORTS -I ..\code\UCOSII\SOURCE -I ..\code\Calculator -I ..\code\uCGUI\AntiAlias -I ..\code\uCGUI\ConvertColor -I ..\code\uCGUI\ConvertMono -I ..\code\uCGUI\Core -I ..\code\uCGUI\Font -I ..\code\uCGUI\MemDev -I ..\code\uCGUI\MultiLayer -I ..\code\uCGUI\Widget -I ..\code\uCGUI\WM-I.\RTE\_UCOS_UCGUI-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\stm32f10x_tim.o --omf_browse ..\output\stm32f10x_tim.crf --depend ..\output\stm32f10x_tim.d)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm3.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (..\code\user\stm32f10x_conf.h)(0x51E4175E)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+F (..\FWlib\src\stm32f10x_usart.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 -Otime --apcs=interwork --split_sections -I ..\code\header -I ..\code\library\inc -I ..\..\include -I ..\..\..\..\library\inc -I ..\..\..\..\..\FWLib\library\inc -I ..\code\FAT16 -I ..\code\driver -I ..\code\ffs -I ..\code\TFT -I ..\code\OV7670 -I ..\code\TFT -I ..\code\menu -I ..\code\TFT\TFT_ILI9328 -I ..\code\RTC -I ..\code\user -I ..\code\GUI\Config -I ..\code\ADC -I ..\FWlib\inc -I ..\code\GUI\GUI_inc -I ..\code\GPS -I ..\code\GUI_4.04\Include -I ..\code\PS2 -I ..\code\driver\delay -I ..\code\application -I ..\code\UCOSII\PORTS -I ..\code\UCOSII\SOURCE -I ..\code\Calculator -I ..\code\uCGUI\AntiAlias -I ..\code\uCGUI\ConvertColor -I ..\code\uCGUI\ConvertMono -I ..\code\uCGUI\Core -I ..\code\uCGUI\Font -I ..\code\uCGUI\MemDev -I ..\code\uCGUI\MultiLayer -I ..\code\uCGUI\Widget -I ..\code\uCGUI\WM-I.\RTE\_UCOS_UCGUI-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\stm32f10x_usart.o --omf_browse ..\output\stm32f10x_usart.crf --depend ..\output\stm32f10x_usart.d)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm3.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (..\code\user\stm32f10x_conf.h)(0x51E4175E)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+F (..\FWlib\src\stm32f10x_dma.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 -Otime --apcs=interwork --split_sections -I ..\code\header -I ..\code\library\inc -I ..\..\include -I ..\..\..\..\library\inc -I ..\..\..\..\..\FWLib\library\inc -I ..\code\FAT16 -I ..\code\driver -I ..\code\ffs -I ..\code\TFT -I ..\code\OV7670 -I ..\code\TFT -I ..\code\menu -I ..\code\TFT\TFT_ILI9328 -I ..\code\RTC -I ..\code\user -I ..\code\GUI\Config -I ..\code\ADC -I ..\FWlib\inc -I ..\code\GUI\GUI_inc -I ..\code\GPS -I ..\code\GUI_4.04\Include -I ..\code\PS2 -I ..\code\driver\delay -I ..\code\application -I ..\code\UCOSII\PORTS -I ..\code\UCOSII\SOURCE -I ..\code\Calculator -I ..\code\uCGUI\AntiAlias -I ..\code\uCGUI\ConvertColor -I ..\code\uCGUI\ConvertMono -I ..\code\uCGUI\Core -I ..\code\uCGUI\Font -I ..\code\uCGUI\MemDev -I ..\code\uCGUI\MultiLayer -I ..\code\uCGUI\Widget -I ..\code\uCGUI\WM-I.\RTE\_UCOS_UCGUI-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\stm32f10x_dma.o --omf_browse ..\output\stm32f10x_dma.crf --depend ..\output\stm32f10x_dma.d)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm3.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (..\code\user\stm32f10x_conf.h)(0x51E4175E)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+F (..\FWlib\src\stm32f10x_exti.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 -Otime --apcs=interwork --split_sections -I ..\code\header -I ..\code\library\inc -I ..\..\include -I ..\..\..\..\library\inc -I ..\..\..\..\..\FWLib\library\inc -I ..\code\FAT16 -I ..\code\driver -I ..\code\ffs -I ..\code\TFT -I ..\code\OV7670 -I ..\code\TFT -I ..\code\menu -I ..\code\TFT\TFT_ILI9328 -I ..\code\RTC -I ..\code\user -I ..\code\GUI\Config -I ..\code\ADC -I ..\FWlib\inc -I ..\code\GUI\GUI_inc -I ..\code\GPS -I ..\code\GUI_4.04\Include -I ..\code\PS2 -I ..\code\driver\delay -I ..\code\application -I ..\code\UCOSII\PORTS -I ..\code\UCOSII\SOURCE -I ..\code\Calculator -I ..\code\uCGUI\AntiAlias -I ..\code\uCGUI\ConvertColor -I ..\code\uCGUI\ConvertMono -I ..\code\uCGUI\Core -I ..\code\uCGUI\Font -I ..\code\uCGUI\MemDev -I ..\code\uCGUI\MultiLayer -I ..\code\uCGUI\Widget -I ..\code\uCGUI\WM-I.\RTE\_UCOS_UCGUI-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\stm32f10x_exti.o --omf_browse ..\output\stm32f10x_exti.crf --depend ..\output\stm32f10x_exti.d)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm3.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (..\code\user\stm32f10x_conf.h)(0x51E4175E)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+F (..\FWlib\src\stm32f10x_bkp.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 -Otime --apcs=interwork --split_sections -I ..\code\header -I ..\code\library\inc -I ..\..\include -I ..\..\..\..\library\inc -I ..\..\..\..\..\FWLib\library\inc -I ..\code\FAT16 -I ..\code\driver -I ..\code\ffs -I ..\code\TFT -I ..\code\OV7670 -I ..\code\TFT -I ..\code\menu -I ..\code\TFT\TFT_ILI9328 -I ..\code\RTC -I ..\code\user -I ..\code\GUI\Config -I ..\code\ADC -I ..\FWlib\inc -I ..\code\GUI\GUI_inc -I ..\code\GPS -I ..\code\GUI_4.04\Include -I ..\code\PS2 -I ..\code\driver\delay -I ..\code\application -I ..\code\UCOSII\PORTS -I ..\code\UCOSII\SOURCE -I ..\code\Calculator -I ..\code\uCGUI\AntiAlias -I ..\code\uCGUI\ConvertColor -I ..\code\uCGUI\ConvertMono -I ..\code\uCGUI\Core -I ..\code\uCGUI\Font -I ..\code\uCGUI\MemDev -I ..\code\uCGUI\MultiLayer -I ..\code\uCGUI\Widget -I ..\code\uCGUI\WM-I.\RTE\_UCOS_UCGUI-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\stm32f10x_bkp.o --omf_browse ..\output\stm32f10x_bkp.crf --depend ..\output\stm32f10x_bkp.d)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm3.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (..\code\user\stm32f10x_conf.h)(0x51E4175E)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+F (..\FWlib\src\misc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 -Otime --apcs=interwork --split_sections -I ..\code\header -I ..\code\library\inc -I ..\..\include -I ..\..\..\..\library\inc -I ..\..\..\..\..\FWLib\library\inc -I ..\code\FAT16 -I ..\code\driver -I ..\code\ffs -I ..\code\TFT -I ..\code\OV7670 -I ..\code\TFT -I ..\code\menu -I ..\code\TFT\TFT_ILI9328 -I ..\code\RTC -I ..\code\user -I ..\code\GUI\Config -I ..\code\ADC -I ..\FWlib\inc -I ..\code\GUI\GUI_inc -I ..\code\GPS -I ..\code\GUI_4.04\Include -I ..\code\PS2 -I ..\code\driver\delay -I ..\code\application -I ..\code\UCOSII\PORTS -I ..\code\UCOSII\SOURCE -I ..\code\Calculator -I ..\code\uCGUI\AntiAlias -I ..\code\uCGUI\ConvertColor -I ..\code\uCGUI\ConvertMono -I ..\code\uCGUI\Core -I ..\code\uCGUI\Font -I ..\code\uCGUI\MemDev -I ..\code\uCGUI\MultiLayer -I ..\code\uCGUI\Widget -I ..\code\uCGUI\WM-I.\RTE\_UCOS_UCGUI-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\misc.o --omf_browse ..\output\misc.crf --depend ..\output\misc.d)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm3.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (..\code\user\stm32f10x_conf.h)(0x51E4175E)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+F (..\FWlib\src\stm32f10x_pwr.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 -Otime --apcs=interwork --split_sections -I ..\code\header -I ..\code\library\inc -I ..\..\include -I ..\..\..\..\library\inc -I ..\..\..\..\..\FWLib\library\inc -I ..\code\FAT16 -I ..\code\driver -I ..\code\ffs -I ..\code\TFT -I ..\code\OV7670 -I ..\code\TFT -I ..\code\menu -I ..\code\TFT\TFT_ILI9328 -I ..\code\RTC -I ..\code\user -I ..\code\GUI\Config -I ..\code\ADC -I ..\FWlib\inc -I ..\code\GUI\GUI_inc -I ..\code\GPS -I ..\code\GUI_4.04\Include -I ..\code\PS2 -I ..\code\driver\delay -I ..\code\application -I ..\code\UCOSII\PORTS -I ..\code\UCOSII\SOURCE -I ..\code\Calculator -I ..\code\uCGUI\AntiAlias -I ..\code\uCGUI\ConvertColor -I ..\code\uCGUI\ConvertMono -I ..\code\uCGUI\Core -I ..\code\uCGUI\Font -I ..\code\uCGUI\MemDev -I ..\code\uCGUI\MultiLayer -I ..\code\uCGUI\Widget -I ..\code\uCGUI\WM-I.\RTE\_UCOS_UCGUI-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\stm32f10x_pwr.o --omf_browse ..\output\stm32f10x_pwr.crf --depend ..\output\stm32f10x_pwr.d)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm3.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (..\code\user\stm32f10x_conf.h)(0x51E4175E)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+F (..\FWlib\src\stm32f10x_fsmc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 -Otime --apcs=interwork --split_sections -I ..\code\header -I ..\code\library\inc -I ..\..\include -I ..\..\..\..\library\inc -I ..\..\..\..\..\FWLib\library\inc -I ..\code\FAT16 -I ..\code\driver -I ..\code\ffs -I ..\code\TFT -I ..\code\OV7670 -I ..\code\TFT -I ..\code\menu -I ..\code\TFT\TFT_ILI9328 -I ..\code\RTC -I ..\code\user -I ..\code\GUI\Config -I ..\code\ADC -I ..\FWlib\inc -I ..\code\GUI\GUI_inc -I ..\code\GPS -I ..\code\GUI_4.04\Include -I ..\code\PS2 -I ..\code\driver\delay -I ..\code\application -I ..\code\UCOSII\PORTS -I ..\code\UCOSII\SOURCE -I ..\code\Calculator -I ..\code\uCGUI\AntiAlias -I ..\code\uCGUI\ConvertColor -I ..\code\uCGUI\ConvertMono -I ..\code\uCGUI\Core -I ..\code\uCGUI\Font -I ..\code\uCGUI\MemDev -I ..\code\uCGUI\MultiLayer -I ..\code\uCGUI\Widget -I ..\code\uCGUI\WM-I.\RTE\_UCOS_UCGUI-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\stm32f10x_fsmc.o --omf_browse ..\output\stm32f10x_fsmc.crf --depend ..\output\stm32f10x_fsmc.d)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm3.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (..\code\user\stm32f10x_conf.h)(0x51E4175E)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+F (..\code\GUI\LCDDriver\LCDNull.c)(0x54104C24)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 -Otime --apcs=interwork --split_sections -I ..\code\header -I ..\code\library\inc -I ..\..\include -I ..\..\..\..\library\inc -I ..\..\..\..\..\FWLib\library\inc -I ..\code\FAT16 -I ..\code\driver -I ..\code\ffs -I ..\code\TFT -I ..\code\OV7670 -I ..\code\TFT -I ..\code\menu -I ..\code\TFT\TFT_ILI9328 -I ..\code\RTC -I ..\code\user -I ..\code\GUI\Config -I ..\code\ADC -I ..\FWlib\inc -I ..\code\GUI\GUI_inc -I ..\code\GPS -I ..\code\GUI_4.04\Include -I ..\code\PS2 -I ..\code\driver\delay -I ..\code\application -I ..\code\UCOSII\PORTS -I ..\code\UCOSII\SOURCE -I ..\code\Calculator -I ..\code\uCGUI\AntiAlias -I ..\code\uCGUI\ConvertColor -I ..\code\uCGUI\ConvertMono -I ..\code\uCGUI\Core -I ..\code\uCGUI\Font -I ..\code\uCGUI\MemDev -I ..\code\uCGUI\MultiLayer -I ..\code\uCGUI\Widget -I ..\code\uCGUI\WM-I.\RTE\_UCOS_UCGUI-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\lcdnull.o --omf_browse ..\output\lcdnull.crf --depend ..\output\lcdnull.d)
+I (..\code\GUI\GUI_inc\LCD_Private.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\LCD_ConfDefaults.h)(0x4F7FF28C)
+I (..\code\GUI\Config\LCDConf.h)(0x51E46716)
+I (..\code\GUI\GUI_inc\GUI_ConfDefaults.h)(0x4F7FF282)
+I (..\code\GUI\Config\GUIConf.h)(0x51E4654C)
+I (..\code\GUI\GUI_inc\LCD_Protected.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\LCD.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\GUI.h)(0x4FA818DA)
+I (..\code\GUI\GUI_inc\GUIType.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\GUIVersion.h)(0x412A8DE0)
+I (..\code\GUI\GUI_inc\GUI_Private.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\GUI_Protected.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\GUIDebug.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\GUI_X.h)(0x4123FD70)
+I (..\code\GUI\GUI_inc\WM_GUI.h)(0x4123FD72)
+I (..\code\TFT\TFT_ILI9328\ili9325.h)(0x5C1632CA)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm3.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h)(0x5A5595E2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h)(0x5A8E1FE2)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (..\code\user\stm32f10x_conf.h)(0x51E4175E)
+I (..\FWlib\inc\stm32f10x_adc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_fsmc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\FWlib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\FWlib\inc\misc.h)(0x4D783BB4)
+F (..\code\UCOSII\PORTS\os_cpu.h)(0x504A018E)()
+F (..\code\UCOSII\PORTS\os_cpu_a.asm)(0x48AE1B38)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_UCOS_UCGUI-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include--pd "__UVISION_VERSION SETA 525" --pd "_RTE_ SETA 1" --pd "STM32F10X_HD SETA 1"--list ..\listing\os_cpu_a.lst --xref -o ..\output\os_cpu_a.o --depend ..\output\os_cpu_a.d)
+F (..\code\UCOSII\PORTS\os_cpu_c.c)(0x5C163546)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 -Otime --apcs=interwork --split_sections -I ..\code\header -I ..\code\library\inc -I ..\..\include -I ..\..\..\..\library\inc -I ..\..\..\..\..\FWLib\library\inc -I ..\code\FAT16 -I ..\code\driver -I ..\code\ffs -I ..\code\TFT -I ..\code\OV7670 -I ..\code\TFT -I ..\code\menu -I ..\code\TFT\TFT_ILI9328 -I ..\code\RTC -I ..\code\user -I ..\code\GUI\Config -I ..\code\ADC -I ..\FWlib\inc -I ..\code\GUI\GUI_inc -I ..\code\GPS -I ..\code\GUI_4.04\Include -I ..\code\PS2 -I ..\code\driver\delay -I ..\code\application -I ..\code\UCOSII\PORTS -I ..\code\UCOSII\SOURCE -I ..\code\Calculator -I ..\code\uCGUI\AntiAlias -I ..\code\uCGUI\ConvertColor -I ..\code\uCGUI\ConvertMono -I ..\code\uCGUI\Core -I ..\code\uCGUI\Font -I ..\code\uCGUI\MemDev -I ..\code\uCGUI\MultiLayer -I ..\code\uCGUI\Widget -I ..\code\uCGUI\WM-I.\RTE\_UCOS_UCGUI-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\os_cpu_c.o --omf_browse ..\output\os_cpu_c.crf --depend ..\output\os_cpu_c.d)
+I (..\code\UCOSII\SOURCE\ucos_ii.h)(0x504AA4BA)
+I (..\code\application\app_cfg.h)(0x5C187650)
+I (..\code\application\os_cfg.h)(0x505ADD84)
+I (..\code\UCOSII\PORTS\os_cpu.h)(0x504A018E)
+F (..\code\UCOSII\PORTS\os_dbg.c)(0x5C163546)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 -Otime --apcs=interwork --split_sections -I ..\code\header -I ..\code\library\inc -I ..\..\include -I ..\..\..\..\library\inc -I ..\..\..\..\..\FWLib\library\inc -I ..\code\FAT16 -I ..\code\driver -I ..\code\ffs -I ..\code\TFT -I ..\code\OV7670 -I ..\code\TFT -I ..\code\menu -I ..\code\TFT\TFT_ILI9328 -I ..\code\RTC -I ..\code\user -I ..\code\GUI\Config -I ..\code\ADC -I ..\FWlib\inc -I ..\code\GUI\GUI_inc -I ..\code\GPS -I ..\code\GUI_4.04\Include -I ..\code\PS2 -I ..\code\driver\delay -I ..\code\application -I ..\code\UCOSII\PORTS -I ..\code\UCOSII\SOURCE -I ..\code\Calculator -I ..\code\uCGUI\AntiAlias -I ..\code\uCGUI\ConvertColor -I ..\code\uCGUI\ConvertMono -I ..\code\uCGUI\Core -I ..\code\uCGUI\Font -I ..\code\uCGUI\MemDev -I ..\code\uCGUI\MultiLayer -I ..\code\uCGUI\Widget -I ..\code\uCGUI\WM-I.\RTE\_UCOS_UCGUI-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\os_dbg.o --omf_browse ..\output\os_dbg.crf --depend ..\output\os_dbg.d)
+I (..\code\UCOSII\SOURCE\ucos_ii.h)(0x504AA4BA)
+I (..\code\application\app_cfg.h)(0x5C187650)
+I (..\code\application\os_cfg.h)(0x505ADD84)
+I (..\code\UCOSII\PORTS\os_cpu.h)(0x504A018E)
+F (..\code\UCOSII\SOURCE\os_core.c)(0x4C0722BE)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 -Otime --apcs=interwork --split_sections -I ..\code\header -I ..\code\library\inc -I ..\..\include -I ..\..\..\..\library\inc -I ..\..\..\..\..\FWLib\library\inc -I ..\code\FAT16 -I ..\code\driver -I ..\code\ffs -I ..\code\TFT -I ..\code\OV7670 -I ..\code\TFT -I ..\code\menu -I ..\code\TFT\TFT_ILI9328 -I ..\code\RTC -I ..\code\user -I ..\code\GUI\Config -I ..\code\ADC -I ..\FWlib\inc -I ..\code\GUI\GUI_inc -I ..\code\GPS -I ..\code\GUI_4.04\Include -I ..\code\PS2 -I ..\code\driver\delay -I ..\code\application -I ..\code\UCOSII\PORTS -I ..\code\UCOSII\SOURCE -I ..\code\Calculator -I ..\code\uCGUI\AntiAlias -I ..\code\uCGUI\ConvertColor -I ..\code\uCGUI\ConvertMono -I ..\code\uCGUI\Core -I ..\code\uCGUI\Font -I ..\code\uCGUI\MemDev -I ..\code\uCGUI\MultiLayer -I ..\code\uCGUI\Widget -I ..\code\uCGUI\WM-I.\RTE\_UCOS_UCGUI-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\os_core.o --omf_browse ..\output\os_core.crf --depend ..\output\os_core.d)
+I (..\code\UCOSII\SOURCE\ucos_ii.h)(0x504AA4BA)
+I (..\code\application\app_cfg.h)(0x5C187650)
+I (..\code\application\os_cfg.h)(0x505ADD84)
+I (..\code\UCOSII\PORTS\os_cpu.h)(0x504A018E)
+F (..\code\UCOSII\SOURCE\os_flag.c)(0x4C0722BE)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 -Otime --apcs=interwork --split_sections -I ..\code\header -I ..\code\library\inc -I ..\..\include -I ..\..\..\..\library\inc -I ..\..\..\..\..\FWLib\library\inc -I ..\code\FAT16 -I ..\code\driver -I ..\code\ffs -I ..\code\TFT -I ..\code\OV7670 -I ..\code\TFT -I ..\code\menu -I ..\code\TFT\TFT_ILI9328 -I ..\code\RTC -I ..\code\user -I ..\code\GUI\Config -I ..\code\ADC -I ..\FWlib\inc -I ..\code\GUI\GUI_inc -I ..\code\GPS -I ..\code\GUI_4.04\Include -I ..\code\PS2 -I ..\code\driver\delay -I ..\code\application -I ..\code\UCOSII\PORTS -I ..\code\UCOSII\SOURCE -I ..\code\Calculator -I ..\code\uCGUI\AntiAlias -I ..\code\uCGUI\ConvertColor -I ..\code\uCGUI\ConvertMono -I ..\code\uCGUI\Core -I ..\code\uCGUI\Font -I ..\code\uCGUI\MemDev -I ..\code\uCGUI\MultiLayer -I ..\code\uCGUI\Widget -I ..\code\uCGUI\WM-I.\RTE\_UCOS_UCGUI-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\os_flag.o --omf_browse ..\output\os_flag.crf --depend ..\output\os_flag.d)
+I (..\code\UCOSII\SOURCE\ucos_ii.h)(0x504AA4BA)
+I (..\code\application\app_cfg.h)(0x5C187650)
+I (..\code\application\os_cfg.h)(0x505ADD84)
+I (..\code\UCOSII\PORTS\os_cpu.h)(0x504A018E)
+F (..\code\UCOSII\SOURCE\os_mbox.c)(0x4C0722BE)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 -Otime --apcs=interwork --split_sections -I ..\code\header -I ..\code\library\inc -I ..\..\include -I ..\..\..\..\library\inc -I ..\..\..\..\..\FWLib\library\inc -I ..\code\FAT16 -I ..\code\driver -I ..\code\ffs -I ..\code\TFT -I ..\code\OV7670 -I ..\code\TFT -I ..\code\menu -I ..\code\TFT\TFT_ILI9328 -I ..\code\RTC -I ..\code\user -I ..\code\GUI\Config -I ..\code\ADC -I ..\FWlib\inc -I ..\code\GUI\GUI_inc -I ..\code\GPS -I ..\code\GUI_4.04\Include -I ..\code\PS2 -I ..\code\driver\delay -I ..\code\application -I ..\code\UCOSII\PORTS -I ..\code\UCOSII\SOURCE -I ..\code\Calculator -I ..\code\uCGUI\AntiAlias -I ..\code\uCGUI\ConvertColor -I ..\code\uCGUI\ConvertMono -I ..\code\uCGUI\Core -I ..\code\uCGUI\Font -I ..\code\uCGUI\MemDev -I ..\code\uCGUI\MultiLayer -I ..\code\uCGUI\Widget -I ..\code\uCGUI\WM-I.\RTE\_UCOS_UCGUI-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\os_mbox.o --omf_browse ..\output\os_mbox.crf --depend ..\output\os_mbox.d)
+I (..\code\UCOSII\SOURCE\ucos_ii.h)(0x504AA4BA)
+I (..\code\application\app_cfg.h)(0x5C187650)
+I (..\code\application\os_cfg.h)(0x505ADD84)
+I (..\code\UCOSII\PORTS\os_cpu.h)(0x504A018E)
+F (..\code\UCOSII\SOURCE\os_mem.c)(0x4C0722BE)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 -Otime --apcs=interwork --split_sections -I ..\code\header -I ..\code\library\inc -I ..\..\include -I ..\..\..\..\library\inc -I ..\..\..\..\..\FWLib\library\inc -I ..\code\FAT16 -I ..\code\driver -I ..\code\ffs -I ..\code\TFT -I ..\code\OV7670 -I ..\code\TFT -I ..\code\menu -I ..\code\TFT\TFT_ILI9328 -I ..\code\RTC -I ..\code\user -I ..\code\GUI\Config -I ..\code\ADC -I ..\FWlib\inc -I ..\code\GUI\GUI_inc -I ..\code\GPS -I ..\code\GUI_4.04\Include -I ..\code\PS2 -I ..\code\driver\delay -I ..\code\application -I ..\code\UCOSII\PORTS -I ..\code\UCOSII\SOURCE -I ..\code\Calculator -I ..\code\uCGUI\AntiAlias -I ..\code\uCGUI\ConvertColor -I ..\code\uCGUI\ConvertMono -I ..\code\uCGUI\Core -I ..\code\uCGUI\Font -I ..\code\uCGUI\MemDev -I ..\code\uCGUI\MultiLayer -I ..\code\uCGUI\Widget -I ..\code\uCGUI\WM-I.\RTE\_UCOS_UCGUI-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\os_mem.o --omf_browse ..\output\os_mem.crf --depend ..\output\os_mem.d)
+I (..\code\UCOSII\SOURCE\ucos_ii.h)(0x504AA4BA)
+I (..\code\application\app_cfg.h)(0x5C187650)
+I (..\code\application\os_cfg.h)(0x505ADD84)
+I (..\code\UCOSII\PORTS\os_cpu.h)(0x504A018E)
+F (..\code\UCOSII\SOURCE\os_mutex.c)(0x4C0722BE)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 -Otime --apcs=interwork --split_sections -I ..\code\header -I ..\code\library\inc -I ..\..\include -I ..\..\..\..\library\inc -I ..\..\..\..\..\FWLib\library\inc -I ..\code\FAT16 -I ..\code\driver -I ..\code\ffs -I ..\code\TFT -I ..\code\OV7670 -I ..\code\TFT -I ..\code\menu -I ..\code\TFT\TFT_ILI9328 -I ..\code\RTC -I ..\code\user -I ..\code\GUI\Config -I ..\code\ADC -I ..\FWlib\inc -I ..\code\GUI\GUI_inc -I ..\code\GPS -I ..\code\GUI_4.04\Include -I ..\code\PS2 -I ..\code\driver\delay -I ..\code\application -I ..\code\UCOSII\PORTS -I ..\code\UCOSII\SOURCE -I ..\code\Calculator -I ..\code\uCGUI\AntiAlias -I ..\code\uCGUI\ConvertColor -I ..\code\uCGUI\ConvertMono -I ..\code\uCGUI\Core -I ..\code\uCGUI\Font -I ..\code\uCGUI\MemDev -I ..\code\uCGUI\MultiLayer -I ..\code\uCGUI\Widget -I ..\code\uCGUI\WM-I.\RTE\_UCOS_UCGUI-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\os_mutex.o --omf_browse ..\output\os_mutex.crf --depend ..\output\os_mutex.d)
+I (..\code\UCOSII\SOURCE\ucos_ii.h)(0x504AA4BA)
+I (..\code\application\app_cfg.h)(0x5C187650)
+I (..\code\application\os_cfg.h)(0x505ADD84)
+I (..\code\UCOSII\PORTS\os_cpu.h)(0x504A018E)
+F (..\code\UCOSII\SOURCE\os_q.c)(0x4C0722BE)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 -Otime --apcs=interwork --split_sections -I ..\code\header -I ..\code\library\inc -I ..\..\include -I ..\..\..\..\library\inc -I ..\..\..\..\..\FWLib\library\inc -I ..\code\FAT16 -I ..\code\driver -I ..\code\ffs -I ..\code\TFT -I ..\code\OV7670 -I ..\code\TFT -I ..\code\menu -I ..\code\TFT\TFT_ILI9328 -I ..\code\RTC -I ..\code\user -I ..\code\GUI\Config -I ..\code\ADC -I ..\FWlib\inc -I ..\code\GUI\GUI_inc -I ..\code\GPS -I ..\code\GUI_4.04\Include -I ..\code\PS2 -I ..\code\driver\delay -I ..\code\application -I ..\code\UCOSII\PORTS -I ..\code\UCOSII\SOURCE -I ..\code\Calculator -I ..\code\uCGUI\AntiAlias -I ..\code\uCGUI\ConvertColor -I ..\code\uCGUI\ConvertMono -I ..\code\uCGUI\Core -I ..\code\uCGUI\Font -I ..\code\uCGUI\MemDev -I ..\code\uCGUI\MultiLayer -I ..\code\uCGUI\Widget -I ..\code\uCGUI\WM-I.\RTE\_UCOS_UCGUI-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\os_q.o --omf_browse ..\output\os_q.crf --depend ..\output\os_q.d)
+I (..\code\UCOSII\SOURCE\ucos_ii.h)(0x504AA4BA)
+I (..\code\application\app_cfg.h)(0x5C187650)
+I (..\code\application\os_cfg.h)(0x505ADD84)
+I (..\code\UCOSII\PORTS\os_cpu.h)(0x504A018E)
+F (..\code\UCOSII\SOURCE\os_sem.c)(0x4C0722BE)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 -Otime --apcs=interwork --split_sections -I ..\code\header -I ..\code\library\inc -I ..\..\include -I ..\..\..\..\library\inc -I ..\..\..\..\..\FWLib\library\inc -I ..\code\FAT16 -I ..\code\driver -I ..\code\ffs -I ..\code\TFT -I ..\code\OV7670 -I ..\code\TFT -I ..\code\menu -I ..\code\TFT\TFT_ILI9328 -I ..\code\RTC -I ..\code\user -I ..\code\GUI\Config -I ..\code\ADC -I ..\FWlib\inc -I ..\code\GUI\GUI_inc -I ..\code\GPS -I ..\code\GUI_4.04\Include -I ..\code\PS2 -I ..\code\driver\delay -I ..\code\application -I ..\code\UCOSII\PORTS -I ..\code\UCOSII\SOURCE -I ..\code\Calculator -I ..\code\uCGUI\AntiAlias -I ..\code\uCGUI\ConvertColor -I ..\code\uCGUI\ConvertMono -I ..\code\uCGUI\Core -I ..\code\uCGUI\Font -I ..\code\uCGUI\MemDev -I ..\code\uCGUI\MultiLayer -I ..\code\uCGUI\Widget -I ..\code\uCGUI\WM-I.\RTE\_UCOS_UCGUI-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\os_sem.o --omf_browse ..\output\os_sem.crf --depend ..\output\os_sem.d)
+I (..\code\UCOSII\SOURCE\ucos_ii.h)(0x504AA4BA)
+I (..\code\application\app_cfg.h)(0x5C187650)
+I (..\code\application\os_cfg.h)(0x505ADD84)
+I (..\code\UCOSII\PORTS\os_cpu.h)(0x504A018E)
+F (..\code\UCOSII\SOURCE\os_task.c)(0x504AA4AC)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 -Otime --apcs=interwork --split_sections -I ..\code\header -I ..\code\library\inc -I ..\..\include -I ..\..\..\..\library\inc -I ..\..\..\..\..\FWLib\library\inc -I ..\code\FAT16 -I ..\code\driver -I ..\code\ffs -I ..\code\TFT -I ..\code\OV7670 -I ..\code\TFT -I ..\code\menu -I ..\code\TFT\TFT_ILI9328 -I ..\code\RTC -I ..\code\user -I ..\code\GUI\Config -I ..\code\ADC -I ..\FWlib\inc -I ..\code\GUI\GUI_inc -I ..\code\GPS -I ..\code\GUI_4.04\Include -I ..\code\PS2 -I ..\code\driver\delay -I ..\code\application -I ..\code\UCOSII\PORTS -I ..\code\UCOSII\SOURCE -I ..\code\Calculator -I ..\code\uCGUI\AntiAlias -I ..\code\uCGUI\ConvertColor -I ..\code\uCGUI\ConvertMono -I ..\code\uCGUI\Core -I ..\code\uCGUI\Font -I ..\code\uCGUI\MemDev -I ..\code\uCGUI\MultiLayer -I ..\code\uCGUI\Widget -I ..\code\uCGUI\WM-I.\RTE\_UCOS_UCGUI-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\os_task.o --omf_browse ..\output\os_task.crf --depend ..\output\os_task.d)
+I (..\code\UCOSII\SOURCE\ucos_ii.h)(0x504AA4BA)
+I (..\code\application\app_cfg.h)(0x5C187650)
+I (..\code\application\os_cfg.h)(0x505ADD84)
+I (..\code\UCOSII\PORTS\os_cpu.h)(0x504A018E)
+F (..\code\UCOSII\SOURCE\os_time.c)(0x4C0722BE)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 -Otime --apcs=interwork --split_sections -I ..\code\header -I ..\code\library\inc -I ..\..\include -I ..\..\..\..\library\inc -I ..\..\..\..\..\FWLib\library\inc -I ..\code\FAT16 -I ..\code\driver -I ..\code\ffs -I ..\code\TFT -I ..\code\OV7670 -I ..\code\TFT -I ..\code\menu -I ..\code\TFT\TFT_ILI9328 -I ..\code\RTC -I ..\code\user -I ..\code\GUI\Config -I ..\code\ADC -I ..\FWlib\inc -I ..\code\GUI\GUI_inc -I ..\code\GPS -I ..\code\GUI_4.04\Include -I ..\code\PS2 -I ..\code\driver\delay -I ..\code\application -I ..\code\UCOSII\PORTS -I ..\code\UCOSII\SOURCE -I ..\code\Calculator -I ..\code\uCGUI\AntiAlias -I ..\code\uCGUI\ConvertColor -I ..\code\uCGUI\ConvertMono -I ..\code\uCGUI\Core -I ..\code\uCGUI\Font -I ..\code\uCGUI\MemDev -I ..\code\uCGUI\MultiLayer -I ..\code\uCGUI\Widget -I ..\code\uCGUI\WM-I.\RTE\_UCOS_UCGUI-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\os_time.o --omf_browse ..\output\os_time.crf --depend ..\output\os_time.d)
+I (..\code\UCOSII\SOURCE\ucos_ii.h)(0x504AA4BA)
+I (..\code\application\app_cfg.h)(0x5C187650)
+I (..\code\application\os_cfg.h)(0x505ADD84)
+I (..\code\UCOSII\PORTS\os_cpu.h)(0x504A018E)
+F (..\code\UCOSII\SOURCE\os_tmr.c)(0x4C0722BE)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 -Otime --apcs=interwork --split_sections -I ..\code\header -I ..\code\library\inc -I ..\..\include -I ..\..\..\..\library\inc -I ..\..\..\..\..\FWLib\library\inc -I ..\code\FAT16 -I ..\code\driver -I ..\code\ffs -I ..\code\TFT -I ..\code\OV7670 -I ..\code\TFT -I ..\code\menu -I ..\code\TFT\TFT_ILI9328 -I ..\code\RTC -I ..\code\user -I ..\code\GUI\Config -I ..\code\ADC -I ..\FWlib\inc -I ..\code\GUI\GUI_inc -I ..\code\GPS -I ..\code\GUI_4.04\Include -I ..\code\PS2 -I ..\code\driver\delay -I ..\code\application -I ..\code\UCOSII\PORTS -I ..\code\UCOSII\SOURCE -I ..\code\Calculator -I ..\code\uCGUI\AntiAlias -I ..\code\uCGUI\ConvertColor -I ..\code\uCGUI\ConvertMono -I ..\code\uCGUI\Core -I ..\code\uCGUI\Font -I ..\code\uCGUI\MemDev -I ..\code\uCGUI\MultiLayer -I ..\code\uCGUI\Widget -I ..\code\uCGUI\WM-I.\RTE\_UCOS_UCGUI-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\os_tmr.o --omf_browse ..\output\os_tmr.crf --depend ..\output\os_tmr.d)
+I (..\code\UCOSII\SOURCE\ucos_ii.h)(0x504AA4BA)
+I (..\code\application\app_cfg.h)(0x5C187650)
+I (..\code\application\os_cfg.h)(0x505ADD84)
+I (..\code\UCOSII\PORTS\os_cpu.h)(0x504A018E)
+F (..\code\UCOSII\SOURCE\ucos_ii.h)(0x504AA4BA)()
+F (..\code\Calculator\calculator.c)(0x5C18EC50)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 -Otime --apcs=interwork --split_sections -I ..\code\header -I ..\code\library\inc -I ..\..\include -I ..\..\..\..\library\inc -I ..\..\..\..\..\FWLib\library\inc -I ..\code\FAT16 -I ..\code\driver -I ..\code\ffs -I ..\code\TFT -I ..\code\OV7670 -I ..\code\TFT -I ..\code\menu -I ..\code\TFT\TFT_ILI9328 -I ..\code\RTC -I ..\code\user -I ..\code\GUI\Config -I ..\code\ADC -I ..\FWlib\inc -I ..\code\GUI\GUI_inc -I ..\code\GPS -I ..\code\GUI_4.04\Include -I ..\code\PS2 -I ..\code\driver\delay -I ..\code\application -I ..\code\UCOSII\PORTS -I ..\code\UCOSII\SOURCE -I ..\code\Calculator -I ..\code\uCGUI\AntiAlias -I ..\code\uCGUI\ConvertColor -I ..\code\uCGUI\ConvertMono -I ..\code\uCGUI\Core -I ..\code\uCGUI\Font -I ..\code\uCGUI\MemDev -I ..\code\uCGUI\MultiLayer -I ..\code\uCGUI\Widget -I ..\code\uCGUI\WM-I.\RTE\_UCOS_UCGUI-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\calculator.o --omf_browse ..\output\calculator.crf --depend ..\output\calculator.d)
+I (..\code\Calculator\calculator.h)(0x5C18E2C6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x599ECD2E)
+I (..\code\Calculator\stack.h)(0x57CBB712)
+I (..\code\Calculator\fpconv.h)(0x5994A9E0)
+F (..\code\Calculator\calculator.h)(0x5C18E2C6)()
+F (..\code\Calculator\stack.c)(0x57CBB712)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 -Otime --apcs=interwork --split_sections -I ..\code\header -I ..\code\library\inc -I ..\..\include -I ..\..\..\..\library\inc -I ..\..\..\..\..\FWLib\library\inc -I ..\code\FAT16 -I ..\code\driver -I ..\code\ffs -I ..\code\TFT -I ..\code\OV7670 -I ..\code\TFT -I ..\code\menu -I ..\code\TFT\TFT_ILI9328 -I ..\code\RTC -I ..\code\user -I ..\code\GUI\Config -I ..\code\ADC -I ..\FWlib\inc -I ..\code\GUI\GUI_inc -I ..\code\GPS -I ..\code\GUI_4.04\Include -I ..\code\PS2 -I ..\code\driver\delay -I ..\code\application -I ..\code\UCOSII\PORTS -I ..\code\UCOSII\SOURCE -I ..\code\Calculator -I ..\code\uCGUI\AntiAlias -I ..\code\uCGUI\ConvertColor -I ..\code\uCGUI\ConvertMono -I ..\code\uCGUI\Core -I ..\code\uCGUI\Font -I ..\code\uCGUI\MemDev -I ..\code\uCGUI\MultiLayer -I ..\code\uCGUI\Widget -I ..\code\uCGUI\WM-I.\RTE\_UCOS_UCGUI-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\stack.o --omf_browse ..\output\stack.crf --depend ..\output\stack.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (..\code\Calculator\stack.h)(0x57CBB712)
+F (..\code\Calculator\stack.h)(0x57CBB712)()
+F (..\code\Calculator\fpconv.c)(0x5C18EA31)(-c --cpu Cortex-M3 -D__MICROLIB -g -O2 -Otime --apcs=interwork --split_sections -I ..\code\header -I ..\code\library\inc -I ..\..\include -I ..\..\..\..\library\inc -I ..\..\..\..\..\FWLib\library\inc -I ..\code\FAT16 -I ..\code\driver -I ..\code\ffs -I ..\code\TFT -I ..\code\OV7670 -I ..\code\TFT -I ..\code\menu -I ..\code\TFT\TFT_ILI9328 -I ..\code\RTC -I ..\code\user -I ..\code\GUI\Config -I ..\code\ADC -I ..\FWlib\inc -I ..\code\GUI\GUI_inc -I ..\code\GPS -I ..\code\GUI_4.04\Include -I ..\code\PS2 -I ..\code\driver\delay -I ..\code\application -I ..\code\UCOSII\PORTS -I ..\code\UCOSII\SOURCE -I ..\code\Calculator -I ..\code\uCGUI\AntiAlias -I ..\code\uCGUI\ConvertColor -I ..\code\uCGUI\ConvertMono -I ..\code\uCGUI\Core -I ..\code\uCGUI\Font -I ..\code\uCGUI\MemDev -I ..\code\uCGUI\MultiLayer -I ..\code\uCGUI\Widget -I ..\code\uCGUI\WM-I.\RTE\_UCOS_UCGUI-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\output\fpconv.o --omf_browse ..\output\fpconv.crf --depend ..\output\fpconv.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x599ECD2E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\code\Calculator\fpconv.h)(0x5994A9E0)
+I (..\code\Calculator\powers.h)(0x5994A9E0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)

@@ -1,0 +1,17 @@
+..\output\guidev_write.o: ..\code\uCGUI\MemDev\GUIDEV_Write.c
+..\output\guidev_write.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+..\output\guidev_write.o: ..\code\GUI\GUI_inc\GUI_Private.h
+..\output\guidev_write.o: ..\code\GUI\GUI_inc\GUI_Protected.h
+..\output\guidev_write.o: ..\code\GUI\GUI_inc\GUI.h
+..\output\guidev_write.o: ..\code\GUI\GUI_inc\GUI_ConfDefaults.h
+..\output\guidev_write.o: ..\code\GUI\Config\GUIConf.h
+..\output\guidev_write.o: ..\code\GUI\GUI_inc\GUIType.h
+..\output\guidev_write.o: ..\code\GUI\GUI_inc\LCD.h
+..\output\guidev_write.o: ..\code\GUI\GUI_inc\GUIVersion.h
+..\output\guidev_write.o: ..\code\GUI\GUI_inc\LCD_Protected.h
+..\output\guidev_write.o: ..\code\GUI\GUI_inc\GUIDebug.h
+..\output\guidev_write.o: ..\code\GUI\GUI_inc\GUI_X.h
+..\output\guidev_write.o: ..\code\GUI\GUI_inc\WM_GUI.h
+..\output\guidev_write.o: ..\code\GUI\GUI_inc\LCD_Private.h
+..\output\guidev_write.o: ..\code\GUI\GUI_inc\LCD_ConfDefaults.h
+..\output\guidev_write.o: ..\code\GUI\Config\LCDConf.h

@@ -1,0 +1,15 @@
+..\output\guiaacircle.o: ..\code\uCGUI\AntiAlias\GUIAACircle.c
+..\output\guiaacircle.o: ..\code\GUI\GUI_inc\GUI_Protected.h
+..\output\guiaacircle.o: ..\code\GUI\GUI_inc\GUI.h
+..\output\guiaacircle.o: ..\code\GUI\GUI_inc\GUI_ConfDefaults.h
+..\output\guiaacircle.o: ..\code\GUI\Config\GUIConf.h
+..\output\guiaacircle.o: ..\code\GUI\GUI_inc\GUIType.h
+..\output\guiaacircle.o: ..\code\GUI\GUI_inc\LCD.h
+..\output\guiaacircle.o: ..\code\GUI\GUI_inc\GUIVersion.h
+..\output\guiaacircle.o: ..\code\GUI\GUI_inc\LCD_Protected.h
+..\output\guiaacircle.o: ..\code\GUI\GUI_inc\GUIDebug.h
+..\output\guiaacircle.o: ..\code\GUI\GUI_inc\GUI_X.h
+..\output\guiaacircle.o: ..\code\GUI\GUI_inc\WM_GUI.h
+..\output\guiaacircle.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+..\output\guiaacircle.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+..\output\guiaacircle.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h

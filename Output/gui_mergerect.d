@@ -1,0 +1,9 @@
+..\output\gui_mergerect.o: ..\code\uCGUI\Core\GUI_MergeRect.c
+..\output\gui_mergerect.o: ..\code\uCGUI\Core\GUI.h
+..\output\gui_mergerect.o: ..\code\uCGUI\Core\GUI_ConfDefaults.h
+..\output\gui_mergerect.o: ..\code\GUI\Config\GUIConf.h
+..\output\gui_mergerect.o: ..\code\uCGUI\Core\GUIType.h
+..\output\gui_mergerect.o: ..\code\uCGUI\Core\LCD.h
+..\output\gui_mergerect.o: ..\code\uCGUI\Core\GUIVersion.h
+..\output\gui_mergerect.o: ..\code\uCGUI\Core\GUIDebug.h
+..\output\gui_mergerect.o: ..\code\uCGUI\Core\GUI_X.h

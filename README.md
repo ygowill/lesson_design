@@ -247,6 +247,10 @@ void * LCD_L0_GetDevFunc(int Index)
 
 因为嵌入式平台的特殊性，如果不能提前获得图形界面样式，而靠一次次的烧录调试的话将会非常消耗时间。所以这次在制作图形界面时，我使用了seggar公司的GUIBuilder，依靠这个软件，我们可以先设计好相应的界面，然后在生成对应的c代码，节省了大量的时间。
 
+![](./picture/calc_frame_design.png)
+
+![](./picture/member_info.png)
+
 
 
 #### 表达式求值模块
@@ -333,11 +337,50 @@ void * LCD_L0_GetDevFunc(int Index)
   测试用例为： 2*3*(4+5)
   ```
 
-![](/Users/qinkai/CLionProjects/lesson_design/picture/detect_memory_leak.png)
+![](./picture/detect_memory_leak.png)
 
 - ```
   测试用例为： (abs(sin(30)*4-8)+3)/2-1
   ```
 
-![](/Users/qinkai/CLionProjects/lesson_design/picture/another_detect_momory_leak.png)
+![](./picture/another_detect_momory_leak.png)
 
+
+
+### 性能调优
+
+---
+
+使用valgrind里的callgrind并结合kcachegrind来找出程序的性能瓶颈，修改代码，实现调优。
+
+* callgrind 使用
+
+![](./picture/callgrind.png)
+
+* Kcachgrind界面
+
+![](./picture/performance_analysis.png)
+
+* 程序调用图
+
+![](./picture/call_graph.jpg)
+
+
+
+
+
+#### 调优示例
+
+##### 调优前
+
+![](./picture/pbefore.png)
+
+##### 调优后
+
+![](./picture/pafter.png)
+
+##### 调优结论
+
+通过观察程序的call graph，对called times进行排序以及观察某一函数占用整个程序运行时cpu的百分比，我们可以很轻松的找出程序性能的瓶颈。比如上面这个例子就是因为源程序没有存储上次比较的结果，导致重复调用相同的strncmp()函数，在进行修改后，函数调用次数下降了52%，对cpu的占用下降了2.99%，这是其中一个较为容易的调优例子。
+
+在整个程序调优以后，内存占用相较原来下降了20%左右，运行时间下降了15%左右。
